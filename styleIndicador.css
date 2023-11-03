@@ -1,4 +1,5 @@
 
+
 html,body{
     padding: 0;
     margin: 0;
@@ -29,16 +30,4 @@ h1{
 
 h2{
     color:  rgb(2, 149, 241);
-}
-
-.cartao{
-    padding: 30px 100px ;
-    margin-top: 20px;
-    border-radius: 20px;
-    font-size: 20px;
-    
-}
-
-.cartao:hover{
-    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
 }
