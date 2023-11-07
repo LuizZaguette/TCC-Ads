@@ -2,13 +2,20 @@
 html,body{
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    
 }
 
 .barra-de-topo{
     background-color: rgb(2, 149, 241);
     padding: 15px;
     text-align: center;
+}
+
+.barra-de-final{
+    background-color: rgb(2, 149, 241);
+    padding: 15px;
+    height: 90px;
+    margin-top: 60px;
 }
 
 .logoRC{
@@ -20,6 +27,7 @@ html,body{
     margin: auto;
     padding: 0 40px;
     margin-top: 60px;
+    
 }
 
 h1{
@@ -37,9 +45,11 @@ h2{
     margin-top: 20px;
     border-radius: 20px;
     font-size: 20px;
-    
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+    color: black;
 }
 
-.cartao:hover{
-    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+a{
+    text-decoration: none;
 }
+
